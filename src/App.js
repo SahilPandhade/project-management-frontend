@@ -28,7 +28,6 @@ const client = new ApolloClient({
   uri: `${process.env.REACT_APP_BASE_URL}/graphql`,
   // cache: new InMemoryCache(),
   cache,
-  credentials: 'include',
 })
 function App() {
 
